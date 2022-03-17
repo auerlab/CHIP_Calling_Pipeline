@@ -1,0 +1,15 @@
+This repository houses a pipeline for calling Clonal Hematopoeisis of Indeterminate Potential (CHIP) on Whole Genome Sequencing data.
+
+The pipeline consists of a SLURM shell script that selects sample IDs, calls somatic variants (with octopus), runs annotation (with ANNOVAR), and filters variants.
+
+Octopus is available at: https://github.com/luntergroup/octopus
+
+ANNOVAR is available at: https://annovar.openbioinformatics.org/en/latest/
+
+The CHIP variant filtering Rscript is available at: https://app.terra.bio/#workspaces/terra-outreach/CHIP-Detection-Mutect2/workflows/terra-outreach/2-CHIP-Annotation-And-Filtering.
+
+The contents of the ANNOVAR_FILES directory can be downloaded from the terra address above.
+
+The REF_FILES directory contains the hg38 fasta sequence and index file, downloaded from: https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0
+
+
